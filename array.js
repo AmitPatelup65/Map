@@ -160,4 +160,18 @@ const prefix=arr18.map((num)=>{
         return "Odd- "+num
     }
 })
-console.log(prefix)
+//console.log(prefix)
+const arr20=[
+    {fname:"Atul",lname:"Singh"},
+    {fname:"Karan",lname:"Yadav"}
+]
+const cc=arr20.map((num=>num.fname+num.lname))
+//console.log(cc)
+const arr88=[1,2,3,4,5]
+const fit=arr88.filter((num,value)=>num>2)
+//console.log(fit)
+const arr99=[1,2,3,4,5]
+const rd=arr99.reduce((acc,currenvalue)=>{
+    return acc+currenvalue
+},0)
+console.log(rd)
